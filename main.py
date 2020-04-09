@@ -4,9 +4,19 @@ def a_power_b(a,b):
         acum = a*acum
     return acum
 
-num1=float(input("Ingrese un número: "))
-num2=int(input("Ingrese un número: "))
+while True:
+    
+    num1=float(input("Ingrese un número: "))
+    num2=int(input("Ingrese un número: "))
+    print("El resultado de elevar",num1,"a",num2,"es:",a_power_b(num1,num2))
+    
+    if num1==0:
+        break
 
-print(a_power_b(num1,num2))
+
+print("Fin del programa")
+
+
+
 
 
